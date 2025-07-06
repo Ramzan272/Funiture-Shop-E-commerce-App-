@@ -21,4 +21,15 @@ Follows the MVVM (Model-View-ViewModel) architecture for clean separation of con
 Model: Defines data structures (cart_item.dart, product.dart, etc.)
 Repository: Handles Firebase/database interactions
 ViewModel: Business logic and state management
-UI: Widgets and screen implementations
+UI: Widgets and screen implementations lib/
+├── main.dart
+├── firebase_options.dart
+├── data/
+│   └── AuthRepository.dart, media_repository.dart, ...
+├── models/
+│   └── product.dart, cart_item.dart, wishlist_item.dart, ...
+├── ui/
+│   ├── admin/
+│   │   └── product/, orders/, chats/, ...
+│   └── user/
+│       └── home/, cart/, wishlist/, profile/, ...

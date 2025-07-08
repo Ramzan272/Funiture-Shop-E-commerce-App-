@@ -1,4 +1,4 @@
-🪑 E-Commerce App (Flutter + Firebase)
+# 🪑 Furniture Shop App (Flutter + Firebase)
 A full-featured furniture e-commerce app developed using Flutter. This application includes user and admin functionalities, supporting login/signup, product listing, cart/wishlist management, order tracking, and real-time chat – all integrated with Firebase services.
 
 📱 Features
@@ -64,6 +64,3 @@ Update Firebase settings in firebase_options.dart if needed
 5. Run the App
    flutter run
    
-
-
-
